@@ -839,7 +839,7 @@ ngx_rtmp_cmd_postconfiguration(ngx_conf_t *cf)
     ngx_rtmp_connect = ngx_rtmp_cmd_connect;
     ngx_rtmp_disconnect = ngx_rtmp_cmd_disconnect;
     ngx_rtmp_create_stream = ngx_rtmp_cmd_create_stream;
-    ngx_rtmp_close_stream = ngx_rtmp_cmd_close_stream;
+    ngx_rtmp_close_stream = ngx_rtmp_cmd_delete_stream;
     ngx_rtmp_delete_stream = ngx_rtmp_cmd_delete_stream;
     ngx_rtmp_publish = ngx_rtmp_cmd_publish;
     ngx_rtmp_play = ngx_rtmp_cmd_play;
